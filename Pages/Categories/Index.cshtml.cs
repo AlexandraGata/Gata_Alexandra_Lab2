@@ -21,6 +21,7 @@ namespace Gata_Alexandra_Lab2.Pages.Categories
 
         public IList<Category> Category { get;set; } = default!;
 
+
         public async Task OnGetAsync()
         {
             if (_context.Category != null)
